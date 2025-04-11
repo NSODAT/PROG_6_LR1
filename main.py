@@ -6,7 +6,6 @@ FILE2 = 'MarketingSpend.csv'
 
 
 def main():
-    # запускающая функция
     data = read_data(FILE)
     c = count_invoice(data[:5])
     print(f'Всего инвойсов (invoices): {c}')  # 2
